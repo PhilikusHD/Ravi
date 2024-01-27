@@ -1,0 +1,53 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+!Blackbird/assets/**/*.obj
+Blackbird/imgui.ini
+Logs/
+lib/
+CMakeFiles/
+bin-Debug/
+bin-Release/
+build/
+Makefile
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+vendor/glfw/src/src/glfw3.pc
+.cache/
+.ninja_deps
+.ninja_log
+build.ninja
+setup_done.txt
+scripts/__pycache__/
+Blackbird/imgui.ini
