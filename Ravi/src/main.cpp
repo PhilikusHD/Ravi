@@ -1,5 +1,4 @@
-#include <torch/torch.h>
-#include <iostream>
+#include "rpch.h"
 #include <Windows.h>
 
 struct Net : torch::nn::Module

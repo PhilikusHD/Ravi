@@ -31,6 +31,9 @@ project "Ravi"
         "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include"
     }
 
+    pchheader "rpch.h"
+    pchsource "Ravi/src/rpch.cpp"
+
     -- Library directories
     libdirs {
         "C:/AI/libtorch/lib",
