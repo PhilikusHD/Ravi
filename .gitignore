@@ -1,35 +1,43 @@
-# specific directories or files
+# Prerequisites
+*.d
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.user
+
+# directories
 .vs/
-.vscode/
-
-# logs
-Logs/
-
-# CMake-related files and directories
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-compile_commands.json
-
-# generated binary directories
 bin/
-lib/
-Blackbird/imgui.ini
+bin-int/
 
-# build-related files and directories
-build/
-build.ninja
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# GLFW-related files
-vendor/glfw/src/src/glfw3.pc
+# Precompiled Headers
+*.gch
+*.pch
 
-# cache directories
-.cache/
-.ninja_deps
-.ninja_log
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Python cache directory
-scripts/__pycache__/
+# Fortran module files
+*.mod
+*.smod
 
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-Ravi.exe
+# Executables
+!vendor/bin/**/*.exe
+*.exe
+*.out
+*.app
