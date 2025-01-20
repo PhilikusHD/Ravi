@@ -10,6 +10,11 @@
 .vs/
 bin/
 bin-int/
+scripts/__pycache__
+
+*.sln
+*.vcxproj
+*.vcxproj.user
 
 # Compiled Object files
 *.slo
