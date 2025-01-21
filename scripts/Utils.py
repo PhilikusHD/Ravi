@@ -73,6 +73,7 @@ def GetUserEnvironmentVariable(name):
 def DownloadFile(url, filepath):
     path = filepath
     filepath = os.path.abspath(filepath)
+    print(filepath)
     # Create the directory if it does not exist
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
